@@ -6,7 +6,7 @@
 #    By: labrown <labrown@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/09/18 15:17:47 by labrown           #+#    #+#              #
-#    Updated: 2017/10/28 19:47:50 by labrown          ###   ########.fr        #
+#    Updated: 2017/10/29 20:28:31 by labrown          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -80,7 +80,8 @@ FTS = ft_isalnum \
 	  ft_digits \
 	  ft_itoa \
 	  ft_wordsize_w \
-	  ft_memdup 
+	  ft_memdup \
+	  ft_lstsize
 
 SRCS = $(addsuffix .c, $(FTS))
 OBJS = $(addsuffix .o, $(FTS))
